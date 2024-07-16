@@ -1,0 +1,11 @@
+---
+services:
+  api:
+    build:
+      dockerfile: ./.devcontainer/Dockerfile
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      # Change `./:/app` to `./${DIR_NAME}:/app` if
+      # you are using a global compose file
+      - ./:/app

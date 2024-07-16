@@ -1,0 +1,9 @@
+config/
+documentation/
+coverage/
+dist/
+build/
+app/
+*.md
+docker-compose.yaml
+docs/
